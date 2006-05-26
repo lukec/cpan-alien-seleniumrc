@@ -3,22 +3,28 @@ use strict;
 use warnings;
 
 our $VERSION = '0.01';
+our $VERBOSE = 1;
 
 sub start {
     my $args = shift || '';
-    my $pm_location = $INC{'Alien/SeleniumRC.pm'};
-    (my $src_location = $pm_location) =~ s#\.pm#/selenium-server.jar#;
-    die "Can't find $src_location!" unless -e $src_location;
+    my $jarfile = find_jar_location();
 
-    my $cmd = "java -jar $src_location $args";
-    print "Running $cmd\n";
+    my $cmd = "java -jar $jarfile $args";
+    print "Running $cmd\n" if $VERBOSE;
     system($cmd);
-    print "Selenium server has finished\n";
+    print "Selenium server has finished\n" if $VERBOSE;
 }
 
 sub help {
     # ignore the return code of selenium-server.jar -help
     start('-help');
+}
+
+sub find_jar_location {
+    my $pm_location = $INC{'Alien/SeleniumRC.pm'};
+    (my $src_location = $pm_location) =~ s#\.pm#/selenium-server.jar#;
+    die "Can't find $src_location!" unless -e $src_location;
+    return $src_location;
 }
 
 1;
