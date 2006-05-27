@@ -5,6 +5,8 @@ use warnings;
 our $VERSION = '0.01';
 our $VERBOSE = 1;
 
+use 5.006;
+
 sub start {
     my $args = shift || '';
     my $jarfile = find_jar_location();
@@ -31,16 +33,12 @@ sub find_jar_location {
 
 =head1 NAME
 
-Alien::SeleniumRC
+Alien::SeleniumRC - Packages the Selenium Remote Control server.
 
 =head1 SYNOPSIS
 
   use Alien::SeleniumRC;
   Alien::SeleniumRC::start();
-
-=head1 ABSTRACT
-
-Alien::SeleniumRC packages the Selenium Remote Control server.
 
 =head1 DESCRIPTION
 
@@ -84,9 +82,12 @@ Selenium Core home page: L<http://openqa.org/selenium-core>
 This software is released under the same terms as perl itself.
 If you don't know what that means visit http://perl.com/
 
+Copyright 2006 by Luke Closs
+
+All rights Reserved
+
 =head1 AUTHOR
 
-Copyright (C) Luke Closs - 2006
-All rights Reserved
+Luke Closs <selenium-rc@awesnob.com>
 
 =cut
