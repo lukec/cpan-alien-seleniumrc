@@ -1,10 +1,5 @@
 use inc::Module::Install;
 
-# Check for Java
-my $java = qx(which java) || '';
-chomp $java;
-die "Selenium RC requires that java is in the PATH (java='$java')\n" unless -x $java;
-
 # Create the Makefile
 name            'Alien-SeleniumRC';
 all_from        'lib/Alien/SeleniumRC.pm';
