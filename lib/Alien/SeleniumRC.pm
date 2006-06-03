@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.10';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -25,6 +25,12 @@ sub help {
 sub find_jar_location {
     my $pm_location = $INC{'Alien/SeleniumRC.pm'};
     (my $src_location = $pm_location) =~ s#\.pm#/selenium-server.jar#;
+
+    if ($^O eq 'cygwin') {
+	$src_location = `cygpath -m '$src_location'`;
+	chomp $src_location;
+    }
+
     die "Can't find $src_location!" unless -e $src_location;
     return $src_location;
 }
@@ -89,5 +95,7 @@ All rights Reserved
 =head1 AUTHOR
 
 Luke Closs <selenium-rc@awesnob.com>
+
+Cygwin support provided by: Kevin Jones <kevin_jones@telus.net>
 
 =cut
