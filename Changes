@@ -1,3 +1,12 @@
+0.13 - Sat Jul  8 00:44:40 PDT 2006
+ - Updated selenium server to version that includes the 
+   getAbsoluteLocation command
+ - Add hack for launching the java server on Mac OSX
+
+0.12 - Tue Jun  6 23:49:21 PDT 2006
+ - 0.8.1 Official Release of SeleniumRC
+   - fixes --port and --timeout command line processing
+
 0.10 - Sat Jun  3 13:40:22 PDT 2006
  - 0.8.0 Official Release of SeleniumRC
  - fixed path problems under cygwin (Thanks, Kevin Jones!)

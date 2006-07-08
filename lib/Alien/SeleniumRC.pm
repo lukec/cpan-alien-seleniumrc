@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.13';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -12,6 +12,10 @@ sub start {
     my $jarfile = find_jar_location();
 
     my $cmd = "java -jar $jarfile $args";
+    if ($^O eq 'darwin') {
+        $cmd = "sudo /usr/libexec/StartupItemContext `which java` -jar $jarfile $args";
+    }
+
     print "Running $cmd\n" if $VERBOSE;
     system($cmd);
     print "Selenium server has finished\n" if $VERBOSE;
