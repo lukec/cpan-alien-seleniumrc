@@ -12,7 +12,7 @@ use File::Path qw/rmtree/;
 
 my $nightly_url = 'http://release.openqa.org/selenium-remote-control/nightly/'
 		  . 'selenium-remote-control-0.8.2-SNAPSHOT.zip';
-my $src_dir = fetch_and_extract($nightly_url);
+my $src_dir = fetch_and_extract(shift || $nightly_url);
 
 my $src_jar = "$src_dir/server/selenium-server.jar";
 die "Can't find $src_jar!" unless -e $src_jar;

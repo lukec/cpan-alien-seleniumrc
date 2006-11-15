@@ -1,6 +1,5 @@
-0.20 - 
- - Incorporated selenium-server.jar from nightly build 
-   - Sun Nov  5 21:09:29 PST 2006
+0.90 - Tue Nov 14 21:29:08 PST 2006
+ - Incorporated selenium-server.jar from Selenium RC 0.9.0 release
  
 0.13 - Sat Jul  8 00:44:40 PDT 2006
  - Updated selenium server to version that includes the 
