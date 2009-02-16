@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '1.02';
+our $VERSION = '1.00';
 our $VERBOSE = 1;
 
 use 5.006;
