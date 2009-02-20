@@ -7,4 +7,5 @@ build_requires  'Test::More'        => '0.42';
 install_script  'bin/selenium-rc';
 
 auto_install;
+sign;
 WriteAll;
