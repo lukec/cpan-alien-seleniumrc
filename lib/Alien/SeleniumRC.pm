@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '1.02_rc1';
+our $VERSION = '1.01';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -12,7 +12,7 @@ sub start {
     my $jarfile = find_jar_location();
 
     my $cmd = "java -jar $jarfile $args";
-    if ($^O eq 'darwin') {
+    if ( $ENV{SELENIUMRC_USE_SIC} ) {
         $cmd = "sudo /usr/libexec/StartupItemContext `which java` -jar $jarfile $args";
     }
 
@@ -81,13 +81,24 @@ Prints the selenium-server.jar usage.
 
 A copy of C<selenium-server.jar> is installed in the C<Alien::SeleniumRC>
 module directory. The Selenium RC version in this distribution is 
-B<Version 1.0 beta 2>, released 12 January 2009.
+B<Version 1.0.1>, released 10 June 2009.
 
 To update your local copy, download SeleniumRC from L<http://seleniumhq.org/download/>
 and extract the file C<selenium-server.jar>. Copy it to the Alien::SeleniumRC
 module directory. On most systems, you can find that path by typing
 
     perldoc -l Alien::SeleniumRC
+
+=head1 ENVIRONMENT VARIABLES
+
+Previous versions of L<Alien::SeleniumRC> used C<sudo> to launch the
+Java process using C<StartupItemContext> when running under any
+version of Mac OSX. Running C<sudo> in the middle of automated test
+suites can be problematic and not alwasy required so from 1.01 on this
+is no longer the default behaviour.
+
+To get the old behaviour back, set the environment variable
+C<SELENIUMRC_USE_SIC> to a true value before calling C<start>.
 
 =head1 SEE ALSO
 
@@ -113,5 +124,7 @@ All rights Reserved
 Luke Closs <selenium-rc@awesnob.com>
 
 Cygwin support provided by: Kevin Jones <kevin_jones@telus.net>
+
+Co-maintainer Hisso Hathair <hisso@cpan.org>
 
 =cut
