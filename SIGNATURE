@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -16,7 +16,7 @@ Hash: SHA1
 
 SHA1 d147b004ec27613281b78b09b9126b66d82a5b1d Changes
 SHA1 dafcae91877d51ae83cfbba9d03308490f9de6e2 MANIFEST
-SHA1 e35f27d6eb21b4eb97dc098e914f84c368f4c062 MANIFEST.SKIP
+SHA1 211a8be8ede446d212b08d9340fd7af7cc0daea3 MANIFEST.SKIP
 SHA1 0cfc5e87799d572c6cd6434aaa6bfecca9514b3f Makefile.PL
 SHA1 fdc0be334ed478ce0a23512f1a7354184561e5b7 README
 SHA1 89f7c56763b2ad4a212546f7fda1fa01cafb6d59 bin/selenium-rc
@@ -32,8 +32,8 @@ SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
 SHA1 567fde53d9f24db2ab823d1031dec5e48f55def6 inc/Module/Install/Scripts.pm
 SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
 SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 f1f623c25a15fbec9a90f0c6c2b65da48d73507d lib/Alien/SeleniumRC.pm
-SHA1 254bbe3961f3373c527287d21c3378c37fab22c9 lib/Alien/SeleniumRC/selenium-server.jar
+SHA1 c25bd957112e56b65814f8360c2d1cd90ab2c268 lib/Alien/SeleniumRC.pm
+SHA1 f15e858f7f898e65d904b0b63895429598391951 lib/Alien/SeleniumRC/selenium-server.jar
 SHA1 c7df99a51d63cb56ebc44e29d69f87468e861c6a t/script.t
 SHA1 53fb788240dc5bf110ad39edf342f3960be1c3bd t/seleniumrc.t
 SHA1 e419c115df69d398e4012edc109cb4fdba035dc8 t/signature.t
@@ -41,7 +41,7 @@ SHA1 3da8dfea87c8a13ad0307630b33b71ae08fc2d00 util/fetch_selenium_server_jar.pl
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.8 (Darwin)
 
-iEYEARECAAYFAkqs7VUACgkQSKW5SPIY6LqVLQCfZRimxzTHWHa2xurmCNvxWOY6
-HfoAn3S6vkEIlyr5/lcRsEUPjoziejC0
-=bUQE
+iEYEARECAAYFAkuEqIIACgkQSKW5SPIY6LpT/ACdEM0k6m0v7GwmMj5kYmGb+oDJ
+rqMAnizvTb5k5Jz8QN3UKXX7T1JM4+NN
+=ghNO
 -----END PGP SIGNATURE-----
