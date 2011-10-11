@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '1.03';
+our $VERSION = '2.80';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -52,22 +52,28 @@ Alien::SeleniumRC - Packages the Selenium Remote Control server.
 
 =head1 DESCRIPTION
 
-The Selenium RC home page is at L<http://openqa.org/selenium-rc>
+The Selenium Server (formerly known as Selenium RC Server) is at
+L<http://seleniumhq.org/download/>
 
-Selenium Remote Control is a test tool that allows you to write
-automated web application UI tests in any programming language against
-any HTTP website using any mainstream JavaScript-enabled browser.
+Selenium Server is a test tool that allows you to write automated web
+application UI tests in any programming language against any HTTP
+website using any mainstream JavaScript-enabled browser.
 
-Selenium Remote Control provides a Selenium Server, which can
-automatically start/stop/control any supported browser. It works by
-using Selenium Core, a pure-HTML+JS library that performs automated
-tasks in JavaScript.
+The Selenium Server is needed in order to run either Selenium RC style
+scripts or Remote Selenium Webdriver ones. The 2.x server (provided
+from this module's version 2.80) is a drop-in replacement for the old
+Selenium RC server and is designed to be backwards compatible with
+your existing infrastructure.
+
+Selenium Server can automatically start/stop/control any supported
+browser. It works by using Selenium Core, a pure-HTML+JS library that
+performs automated tasks in JavaScript.
 
 =head1 METHODS
 
 =head2 C<start>
 
-This method launches the Selenium RC server bundled in this package.
+This method launches the Selenium Server bundled in this package.
 This call will block until the server is killed.
 
 The first argument passed to start() will be passed to
@@ -81,7 +87,7 @@ Prints the selenium-server.jar usage.
 
 A copy of C<selenium-server.jar> is installed in the C<Alien::SeleniumRC>
 module directory. The Selenium RC version in this distribution is 
-B<Version 1.0.3>, released 24 Feb 2010.
+B<Version 2.8.0>, released September 2011.
 
 To update your local copy, download SeleniumRC from L<http://seleniumhq.org/download/>
 and extract the file C<selenium-server.jar>. Copy it to the Alien::SeleniumRC
@@ -94,7 +100,7 @@ module directory. On most systems, you can find that path by typing
 Previous versions of L<Alien::SeleniumRC> used C<sudo> to launch the
 Java process using C<StartupItemContext> when running under any
 version of Mac OSX. Running C<sudo> in the middle of automated test
-suites can be problematic and not alwasy required so from 1.01 on this
+suites can be problematic and not always required so from 1.01 on this
 is no longer the default behaviour.
 
 To get the old behaviour back, set the environment variable
@@ -104,11 +110,9 @@ C<SELENIUMRC_USE_SIC> to a true value before calling C<start>.
 
 L<WWW::Selenium>, L<Test::WWW::Selenium>
 
-Selenium Remote Control home page: L<http://openqa.org/selenium-rc>
+Selenium Server home page: L<http://seleniumhq.org/projects/remote-control/>
 
-Selenium home page: L<http://openqa.org/selenium>
-
-Selenium Core home page: L<http://openqa.org/selenium-core>
+Selenium home page: L<http://seleniumhq.org/>
 
 =head1 LICENSE
 
@@ -125,6 +129,6 @@ Luke Closs <selenium-rc@awesnob.com>
 
 Cygwin support provided by: Kevin Jones <kevin_jones@telus.net>
 
-Co-maintainer Hisso Hathair <hisso@cpan.org>
+Co-maintainer Daniel Austin  <hisso@cpan.org>
 
 =cut
