@@ -32,8 +32,8 @@ SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
 SHA1 567fde53d9f24db2ab823d1031dec5e48f55def6 inc/Module/Install/Scripts.pm
 SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
 SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 c25bd957112e56b65814f8360c2d1cd90ab2c268 lib/Alien/SeleniumRC.pm
-SHA1 f15e858f7f898e65d904b0b63895429598391951 lib/Alien/SeleniumRC/selenium-server.jar
+SHA1 673cc9be728c20538c3fb716a525567043aa96e2 lib/Alien/SeleniumRC.pm
+SHA1 c7c879af5c911589e7a73cf4877cfe43e5c29000 lib/Alien/SeleniumRC/selenium-server.jar
 SHA1 c7df99a51d63cb56ebc44e29d69f87468e861c6a t/script.t
 SHA1 53fb788240dc5bf110ad39edf342f3960be1c3bd t/seleniumrc.t
 SHA1 e419c115df69d398e4012edc109cb4fdba035dc8 t/signature.t
@@ -41,7 +41,7 @@ SHA1 3da8dfea87c8a13ad0307630b33b71ae08fc2d00 util/fetch_selenium_server_jar.pl
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.8 (Darwin)
 
-iEYEARECAAYFAkuEqIIACgkQSKW5SPIY6LpT/ACdEM0k6m0v7GwmMj5kYmGb+oDJ
-rqMAnizvTb5k5Jz8QN3UKXX7T1JM4+NN
-=ghNO
+iEYEARECAAYFAk6UWzoACgkQSKW5SPIY6LovIACfStNZ/KTcfNXXSsIiZi6mLAg0
+Xv4Anih82aTuZ9s5wik1FMgQv6vDynzf
+=62SZ
 -----END PGP SIGNATURE-----
