@@ -17,7 +17,8 @@ sub start {
     }
 
     print "Running $cmd\n" if $VERBOSE;
-    system($cmd);
+    my $ret = system($cmd);
+    die "Failed to run '$cmd': $!" if $ret == -1;
     print "Selenium server has finished\n" if $VERBOSE;
 }
 
