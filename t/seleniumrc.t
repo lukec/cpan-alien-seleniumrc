@@ -12,7 +12,7 @@ BEGIN {
     use subs 'system';
 
     package main;
-    *Alien::SeleniumRC::system = sub { $command = shift };
+    *Alien::SeleniumRC::system = sub { $command = shift; return 0; };
 
     use_ok 'Alien::SeleniumRC';
 }
