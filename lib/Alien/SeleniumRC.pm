@@ -2,7 +2,7 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '2.80';
+our $VERSION = '2.90';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -62,7 +62,7 @@ website using any mainstream JavaScript-enabled browser.
 
 The Selenium Server is needed in order to run either Selenium RC style
 scripts or Remote Selenium Webdriver ones. The 2.x server (provided
-from this module's version 2.80) is a drop-in replacement for the old
+from this module's version 2.9.0) is a drop-in replacement for the old
 Selenium RC server and is designed to be backwards compatible with
 your existing infrastructure.
 
@@ -75,7 +75,8 @@ performs automated tasks in JavaScript.
 =head2 C<start>
 
 This method launches the Selenium Server bundled in this package.
-This call will block until the server is killed.
+This call will block until the server is killed. The method will throw
+an exception with C<die> if the C<system> call returns an error.
 
 The first argument passed to start() will be passed to
 selenium-server.jar as a command line argument.
@@ -88,7 +89,7 @@ Prints the selenium-server.jar usage.
 
 A copy of C<selenium-server.jar> is installed in the C<Alien::SeleniumRC>
 module directory. The Selenium RC version in this distribution is 
-B<Version 2.8.0>, released September 2011.
+B<Version 2.9.0>, released October 2011.
 
 To update your local copy, download SeleniumRC from L<http://seleniumhq.org/download/>
 and extract the file C<selenium-server.jar>. Copy it to the Alien::SeleniumRC

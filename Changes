@@ -1,8 +1,14 @@
-1.02 - Tue Oct 11 08:38:38 PDT 2011
+2.90 - Mon Oct 24 22:04:00 AEDT 2011
+ - Update to Selenium 2.9.0
+
+2.81 - Wed Oct 12 22:14:00 AEDT 2011
+ - start() throws excetion if system() fails
+
+2.80 - Tue Oct 11 08:38:38 PDT 2011
  - Update to Selenium 2.80
 
 1.01 - Sun Sep 13 10:50:00 AEDT 2009
- - Incorporated selenum-sever-.jar from Selenium RC 1.0 final release
+ - Incorporated selenum-sever.jar from Selenium RC 1.0 final release
  - Removed hack for launching the java server on Mac OSX. If you need it
    in your environment, set the environment variable SELENIUMRC_USE_SIC.
 
