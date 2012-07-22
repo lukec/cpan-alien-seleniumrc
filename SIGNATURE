@@ -14,8 +14,8 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 dd800484de637fbbb4621f7c0d73ea483cd69d87 Changes
-SHA1 dafcae91877d51ae83cfbba9d03308490f9de6e2 MANIFEST
+SHA1 6d33dd0e917b256bebfb2943ea85cd937abb5bbc Changes
+SHA1 4d851a792475447761c1daacda82ff0a4dd50fd0 MANIFEST
 SHA1 211a8be8ede446d212b08d9340fd7af7cc0daea3 MANIFEST.SKIP
 SHA1 0cfc5e87799d572c6cd6434aaa6bfecca9514b3f Makefile.PL
 SHA1 fdc0be334ed478ce0a23512f1a7354184561e5b7 README
@@ -32,8 +32,8 @@ SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
 SHA1 567fde53d9f24db2ab823d1031dec5e48f55def6 inc/Module/Install/Scripts.pm
 SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
 SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 bbd35a337e20ff04607857ea14535c6721723cd9 lib/Alien/SeleniumRC.pm
-SHA1 e0714452754887614de6af2823fb2eed7842b6c1 lib/Alien/SeleniumRC/selenium-server.jar
+SHA1 94c44f5bbacda6c5268a9e6c363ee0505a7eed64 lib/Alien/SeleniumRC.pm
+SHA1 0900f523cf1b7982e3206c5a7b3ec28cb2d32fbb lib/Alien/SeleniumRC/selenium-server.jar
 SHA1 c7df99a51d63cb56ebc44e29d69f87468e861c6a t/script.t
 SHA1 f7394488f7cd7b10fce0a3e8c00e1739ee5d514f t/seleniumrc.t
 SHA1 e419c115df69d398e4012edc109cb4fdba035dc8 t/signature.t
@@ -42,11 +42,11 @@ SHA1 3da8dfea87c8a13ad0307630b33b71ae08fc2d00 util/fetch_selenium_server_jar.pl
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iQEcBAEBAgAGBQJPM5rnAAoJEHnWMYF0kUHvayQH/i999jgoRJmj96tRFfYisJLW
-TE7+yno2KyXUshoyQRPAWFV0zTbGYs6lXOzUz76csjZ2mJPXe7KKYrBHF2MqhtBw
-HqH9JKNGfHdFsRK/1sWBOIhpJrVEjqTZimjBq4qXxPqnV95sYtWo5Rur/Baxfx4j
-/wlWSfxGYdn8tFWUDg6t+jRB5hQJgryF4+j+eoUSfJSduz1WS8ME5K9M7i5c5hKF
-gQqm0+VY9I+kdtZv6Y1DNX+xWXaLtmO63OxcWn1vppWipM45xf9NGPi7ImLXJ44U
-VvT4EQPKznkXlAyKfkWjE+A+VlqFyBgW2/++nVdLCs4QxAeFRTOJWy5ZYlrmwqI=
-=RBVl
+iQEcBAEBAgAGBQJQC2fFAAoJEHnWMYF0kUHvNLYH/3bkkJi2FEi58F5+x1qdC+mc
+MFzWFmZ+5cI17cwaKhbq67Fw2mdsTWIs/83gsFeSxSQ7xYYyD7bc4D11RJfLCHYf
+6sgfof88kW/RzytakEqByB8lEojrJ15rGJEFkbXIYn5RiyUOFclnt0Es97N5gYmi
+5Jpg1Au3pvIFaFGO+4owC8SnaT0DeBFLACP8chCgwSZ34mrny7sL5Cj64RHwC1lU
+qn65htmSw1pXqcr5aqH4P/PV+aTKIWD/NDyMLDx23RjGVtCzn7mQbBdZPng0CgVo
+WBunMghaucVtqTFbL3WduhSx15ybkqvCJRjYKeWwKb+CRD1wXxVpZzVbuSGUk0w=
+=JrAZ
 -----END PGP SIGNATURE-----
