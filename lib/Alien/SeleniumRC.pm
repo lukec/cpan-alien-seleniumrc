@@ -2,8 +2,8 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '2.92';
-our $SELENIUM_SERVER_VERSION = '2.24.1';
+our $VERSION = '2.93';
+our $SELENIUM_SERVER_VERSION = '2.28.0';
 our $VERBOSE = 1;
 
 use 5.006;
@@ -89,7 +89,7 @@ Prints the selenium-server.jar usage.
 
 A copy of C<selenium-server.jar> is installed in the C<Alien::SeleniumRC>
 module directory. The Selenium RC version in this distribution is 
-B<Version 2.24.1>, released June 2012.
+B<Version 2.28.0>, released December 2012.
 
 To update your local copy, download SeleniumRC from L<http://seleniumhq.org/download/>
 and extract the file C<selenium-server.jar>. Copy it to the Alien::SeleniumRC

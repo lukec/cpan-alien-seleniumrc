@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,9 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 6d33dd0e917b256bebfb2943ea85cd937abb5bbc Changes
-SHA1 4d851a792475447761c1daacda82ff0a4dd50fd0 MANIFEST
-SHA1 211a8be8ede446d212b08d9340fd7af7cc0daea3 MANIFEST.SKIP
+SHA1 76c2dd1177d95b5e00a81f798ddfdb9d5959b71d .travis.yml
+SHA1 7e7600901294dd2df4834519d84b437cec6451ef Changes
+SHA1 f7e1707f9cdaa63a2646bd621fb0c2c4fd885c0b MANIFEST
+SHA1 35284c78722084c66355ce5bb61e2c4b147830ea MANIFEST.SKIP
 SHA1 0cfc5e87799d572c6cd6434aaa6bfecca9514b3f Makefile.PL
 SHA1 fdc0be334ed478ce0a23512f1a7354184561e5b7 README
 SHA1 89f7c56763b2ad4a212546f7fda1fa01cafb6d59 bin/selenium-rc
@@ -32,8 +33,8 @@ SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
 SHA1 567fde53d9f24db2ab823d1031dec5e48f55def6 inc/Module/Install/Scripts.pm
 SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
 SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 94c44f5bbacda6c5268a9e6c363ee0505a7eed64 lib/Alien/SeleniumRC.pm
-SHA1 0900f523cf1b7982e3206c5a7b3ec28cb2d32fbb lib/Alien/SeleniumRC/selenium-server.jar
+SHA1 bd3b29c048de6ac2d39ff1ae9e51eedc3b35f8ca lib/Alien/SeleniumRC.pm
+SHA1 60671de240f9a18e85297690306c6b7598a8db63 lib/Alien/SeleniumRC/selenium-server.jar
 SHA1 c7df99a51d63cb56ebc44e29d69f87468e861c6a t/script.t
 SHA1 f7394488f7cd7b10fce0a3e8c00e1739ee5d514f t/seleniumrc.t
 SHA1 e419c115df69d398e4012edc109cb4fdba035dc8 t/signature.t
@@ -42,11 +43,11 @@ SHA1 3da8dfea87c8a13ad0307630b33b71ae08fc2d00 util/fetch_selenium_server_jar.pl
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iQEcBAEBAgAGBQJQC2fFAAoJEHnWMYF0kUHvNLYH/3bkkJi2FEi58F5+x1qdC+mc
-MFzWFmZ+5cI17cwaKhbq67Fw2mdsTWIs/83gsFeSxSQ7xYYyD7bc4D11RJfLCHYf
-6sgfof88kW/RzytakEqByB8lEojrJ15rGJEFkbXIYn5RiyUOFclnt0Es97N5gYmi
-5Jpg1Au3pvIFaFGO+4owC8SnaT0DeBFLACP8chCgwSZ34mrny7sL5Cj64RHwC1lU
-qn65htmSw1pXqcr5aqH4P/PV+aTKIWD/NDyMLDx23RjGVtCzn7mQbBdZPng0CgVo
-WBunMghaucVtqTFbL3WduhSx15ybkqvCJRjYKeWwKb+CRD1wXxVpZzVbuSGUk0w=
-=JrAZ
+iQEcBAEBAgAGBQJRG3n3AAoJEHnWMYF0kUHvW6YH/3mRE4JEN+4G1tk4831S3ARK
+PBKOMBJV0+j/4rycXxwD76VNRMNFAbXnd2RV2D9sdl7K/csbMx1QbQevBbqQFjpd
+y6IZWTp9oTZHB68XeEz83vKqJiVpEjHyHfUVr9lD3BfKqL0uChUR3RQJjV8nFUJX
+XdM84RnwD0dFFy9SNYnCh1iX13onDp3XRBq2h/jWjqo5r2sUPmWsMOANnKDmvX8Z
+lhityZkw1b14T35H38W8vMvHFaJRkFet/nt9aPq+FfwUr8y2nim2i2E5RCW04UNV
+8lxZNrDBAMpjMqkcMvXRHrTCdh1d9wYbp+UfNHuOuZb4dt+FqcA8MuWLq78dm+I=
+=sqEM
 -----END PGP SIGNATURE-----

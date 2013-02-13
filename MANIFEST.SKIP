@@ -5,3 +5,5 @@
 ^blibdirs
 ^.git
 ^MANIFEST.bak
+~$
+
