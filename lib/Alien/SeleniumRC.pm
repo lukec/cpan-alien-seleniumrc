@@ -2,8 +2,8 @@ package Alien::SeleniumRC;
 use strict;
 use warnings;
 
-our $VERSION = '2.93';
-our $SELENIUM_SERVER_VERSION = '2.28.0';
+our $VERSION = '2.94';
+our $SELENIUM_SERVER_VERSION = '2.46.0';
 our $VERBOSE = 1;
 
 use 5.006;
