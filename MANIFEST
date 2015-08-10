@@ -1,7 +1,8 @@
-.travis.yml
 Changes
 MANIFEST
 MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml
 SIGNATURE
 Makefile.PL
 README

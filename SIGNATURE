@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,10 +14,11 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 76c2dd1177d95b5e00a81f798ddfdb9d5959b71d .travis.yml
-SHA1 7e7600901294dd2df4834519d84b437cec6451ef Changes
-SHA1 f7e1707f9cdaa63a2646bd621fb0c2c4fd885c0b MANIFEST
-SHA1 35284c78722084c66355ce5bb61e2c4b147830ea MANIFEST.SKIP
+SHA1 4ee622ca2b2e172a14fa57c29be9096653d2a6b4 Changes
+SHA1 b6f22b291498157a25a6bc9ca2d83e41f671c8e4 MANIFEST
+SHA1 313c720c07f09b333b7782e2609edea5ca5905b5 MANIFEST.SKIP
+SHA1 a55d5f4d1681d0a9999d8535c1b2d492117674e6 MYMETA.json
+SHA1 ef7b8eb16f670ce04fcda40f50c08b1a68e6925a MYMETA.yml
 SHA1 0cfc5e87799d572c6cd6434aaa6bfecca9514b3f Makefile.PL
 SHA1 fdc0be334ed478ce0a23512f1a7354184561e5b7 README
 SHA1 89f7c56763b2ad4a212546f7fda1fa01cafb6d59 bin/selenium-rc
@@ -33,8 +34,8 @@ SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
 SHA1 567fde53d9f24db2ab823d1031dec5e48f55def6 inc/Module/Install/Scripts.pm
 SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
 SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
-SHA1 bd3b29c048de6ac2d39ff1ae9e51eedc3b35f8ca lib/Alien/SeleniumRC.pm
-SHA1 60671de240f9a18e85297690306c6b7598a8db63 lib/Alien/SeleniumRC/selenium-server.jar
+SHA1 6489a555e3f95b305338f93a944d41e459c11ba4 lib/Alien/SeleniumRC.pm
+SHA1 2d6e593b3db4aed0b43d4b7532a6248b05963fda lib/Alien/SeleniumRC/selenium-server.jar
 SHA1 c7df99a51d63cb56ebc44e29d69f87468e861c6a t/script.t
 SHA1 f7394488f7cd7b10fce0a3e8c00e1739ee5d514f t/seleniumrc.t
 SHA1 e419c115df69d398e4012edc109cb4fdba035dc8 t/signature.t
@@ -43,11 +44,11 @@ SHA1 3da8dfea87c8a13ad0307630b33b71ae08fc2d00 util/fetch_selenium_server_jar.pl
 Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iQEcBAEBAgAGBQJRG3n3AAoJEHnWMYF0kUHvW6YH/3mRE4JEN+4G1tk4831S3ARK
-PBKOMBJV0+j/4rycXxwD76VNRMNFAbXnd2RV2D9sdl7K/csbMx1QbQevBbqQFjpd
-y6IZWTp9oTZHB68XeEz83vKqJiVpEjHyHfUVr9lD3BfKqL0uChUR3RQJjV8nFUJX
-XdM84RnwD0dFFy9SNYnCh1iX13onDp3XRBq2h/jWjqo5r2sUPmWsMOANnKDmvX8Z
-lhityZkw1b14T35H38W8vMvHFaJRkFet/nt9aPq+FfwUr8y2nim2i2E5RCW04UNV
-8lxZNrDBAMpjMqkcMvXRHrTCdh1d9wYbp+UfNHuOuZb4dt+FqcA8MuWLq78dm+I=
-=sqEM
+iQEcBAEBAgAGBQJVyEKzAAoJEHnWMYF0kUHv7e8H/i51wjuLZr2JEskI03YdUvdw
+Dn5qty9tZGuuukaSnA7eIHS2ucA+a9QlAf7/XVXh6MM4yeLOkn0E7lk9NLwu2CG1
+HmyVzuzco0NdGsuSH2nqd8FJGrdAnDLQ2MfCrufF+rG8FcvZ9XCI8qndwB3sIGMX
+wrRK1sFh/2/E24xIN0ki8NGYg9bdgvYwZJwD5aLgWRT/CvpVQqSg5UwE7h7sw1D2
+aNj4x9Uh965GbFc+76glrni845Yg/zd3nzWmGFtGtWDKoueHfNX4lVdHlFkKWmSY
+F4oLgpJMkJHx3eR3Ngugw/7jQ0j6r036s5FXO+5C7PGvHmNyBHuwalPIzjL1BYA=
+=nBPj
 -----END PGP SIGNATURE-----
