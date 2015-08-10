@@ -1,8 +1,6 @@
 Changes
 MANIFEST
 MANIFEST.SKIP
-MYMETA.json
-MYMETA.yml
 SIGNATURE
 Makefile.PL
 README
@@ -24,4 +22,3 @@ lib/Alien/SeleniumRC/selenium-server.jar
 t/script.t
 t/seleniumrc.t
 t/signature.t
-util/fetch_selenium_server_jar.pl
